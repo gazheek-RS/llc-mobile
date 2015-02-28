@@ -1,5 +1,5 @@
 /*---------------------------------------
-Template created by Ladies Learning Code 
+Template created by Ladies Learning Code
 http://ladieslearningcode.com
 -----------------------------------------*/
 
@@ -11,8 +11,8 @@ http://ladieslearningcode.com
   box-sizing: border-box;
 }
 
-/* Fixes the clearing of floats on child elements - 
-This class should be added to the parent element to 
+/* Fixes the clearing of floats on child elements -
+This class should be added to the parent element to
 force clear the floats of the child elements */
 .clearfix:after {
   content: "";
@@ -49,9 +49,9 @@ h2 {
   font-size: 32px;
 }
 
-/* every other section element, 
+/* every other section element,
 starting with the second section */
-section:nth-child(2n+1) { 
+section:nth-child(2n+1) {
   background: #fefefe;
 }
 section:nth-child(2n+2) {
@@ -77,9 +77,10 @@ ul li {
   margin-bottom: 5px;
 }
 .content-wrap {
-  width: 1000px;
+  max-width: 1000px;
+  width: 80%;
   margin: 0 auto;
-  padding: 90px 0; 
+  padding: 90px 0;
 }
 
 
@@ -202,7 +203,7 @@ header {
 }
 
 
-/* CONTACT & FOOTER 
+/* CONTACT & FOOTER
 --------------------*/
 .contact {
   background: #111;
